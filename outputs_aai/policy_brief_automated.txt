@@ -1,42 +1,35 @@
 POLICY BRIEF: Envelhecimento Ativo no Brasil - PNS 2019
-Análise survey-aware com inferência válida
 
 População estudada:
-   Total de idosos 60+: 22,728
+   Idosos 60+ entrevistados: 22,728
    População representada: 34,398,853
-   Municípios: 2794
+   UFs: 27
 
-Indicadores nacionais (com IC 95%):
-   AAI médio: 0.12 [0.17 - 0.18]
-   health_score             : 0.29 [0.29 - 0.29]
-   functional_score         : 0.06 [0.06 - 0.07]
+Indicadores nacionais (IC 95% por bootstrap de pessoas):
+   AAI médio: 0.862 [0.858 - 0.865]
+   health_score             : 0.808 [0.804 - 0.811]
+   functional_score         : 0.916 [0.912 - 0.919]
 
-Municípios prioritários:
-   Threshold (P20): AAI ≤ 0.15
-   Total municípios vulneráveis: 10
-   População afetada: 135,259
-   UFs mais afetadas: Roraima, Tocantins, Amapá, Sergipe, Acre
+UFs com menor índice:
+   Ceará: 0.824 [0.808 - 0.838]
+   Rio Grande do Norte: 0.836 [0.819 - 0.851]
+   Sergipe: 0.840 [0.823 - 0.858]
+   Piauí: 0.841 [0.825 - 0.857]
+   Maranhão: 0.843 [0.831 - 0.857]
+   (maior: Distrito Federal, 0.887)
 
-Gaps identificados:
-   Sexo: Masculino: 0.16 vs Feminino: 0.19
-   Raça/Cor: Disparidades documentadas (ver tabelas)
+Diferenças por grupo:
+   sexo: Homem: 0.882 | Mulher: 0.847
+   area_urbana: Rural: 0.855 | Urbano: 0.863
+   regiao: Centro-Oeste: 0.875 | Nordeste: 0.843 | Norte: 0.863 | Sudeste: 0.867 | Sul: 0.871
 
-Insights críticos:
-1. Heterogeneidade municipal extrema: políticas uniformes são ineficazes.
-   Municípios com n<30 exigem métodos estatísticos especiais.
-2. Autocorrelação espacial detectada: clusters geográficos persistentes.
-3. Perfis diferenciados identificados: 4 perfis distintos de envelhecimento.
-4. Principais drivers de vulnerabilidade:
-   idade: 0.505
-   renda_percapita: 0.249
-   anos_estudo: 0.130
-
-Recomendações prioritárias:
-Curto prazo: Validar municípios com poucos dados, integrar informações administrativas e monitorar indicadores locais.
-Médio prazo: Implementar métodos estatísticos avançados e promover inclusão digital.
-Longo prazo: Realizar análises comparativas com outros bancos de dados e estudos longitudinais.
+Modelo de vulnerabilidade (20% com menor índice): AUC 0.849 no teste
+Fatores com maior importância:
+   num_medicamentos: 0.330
+   idade: 0.329
+   renda_percapita: 0.132
 
 Limitações:
-- Resultados para municípios com poucos dados podem ser menos confiáveis.
-- A análise não permite afirmar causalidade, apenas associações.
-- Para maior precisão, recomenda-se o uso de métodos estatísticos que considerem o desenho complexo da amostra.
+- A PNS pública não identifica o município; a análise geográfica é por UF.
+- O intervalo de confiança sorteia pessoas e ignora estratos e UPAs da PNS; o intervalo real é mais largo.
+- Dados transversais de 2019: mostram associação, não causa.

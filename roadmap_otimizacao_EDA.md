@@ -289,5 +289,4 @@ Este roadmap detalha a implementação de otimizações metodológicas críticas
 
 ---
 
-*Este roadmap será revisado mensalmente com base no progresso real e feedback dos revisores metodológicos.*</content>
-<parameter name="filePath">c:\Users\gafeb\researchEnvelhecimentoAtivo\roadmap_otimizacao_EDA.md
+*Este roadmap será revisado mensalmente com base no progresso real e feedback dos revisores metodológicos.*

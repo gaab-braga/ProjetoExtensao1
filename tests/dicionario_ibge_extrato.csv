@@ -1,0 +1,64 @@
+codigo,descricao,categorias
+V0001,Unidade da Federação,11=Rondônia | 12=Acre | 13=Amazonas | 14=Roraima | 15=Pará | 16=Amapá | 17=Tocantins | 21=Maranhão | 22=Piauí | 23=Ceará | 24=Rio Grande do Norte | 25=Paraíba | 26=Pernambuco | 27=Alagoas | 28=Sergipe | 29=Bahia | 31=Minas Gerais | 32=Espírito Santo | 33=Rio de Janeiro | 35=São Paulo | 41=Paraná | 42=Santa Catarina | 43=Rio Grande do Sul | 50=Mato Grosso do Sul | 51=Mato Grosso | 52=Goiás | 53=Distrito Federal
+V0024,Estrato,
+UPA_PNS,UPA,
+V0006_PNS,Número de ordem do domicílio na PNS,
+C00301,C2 Número de ordem do morador,
+V00291,Peso do morador selecionado com calibração,5 dígitos e 8 casas decimais=Peso do morador selecionado com correção de não entrevista com calibração pela projeção de população para morador selecionado - Usado no cálculo de indicadores de morador selecionado
+V0026,Tipo de situação censitária,1=Urbano | 2=Rural
+V0031,Tipo de área,"1=Capital | 2=Resto da RM (Região Metropolitana, excluindo a capital) | 3=RIDE (excluindo a capital) | 4=Resto da UF (Unidade da Federação, excluindo a região metropolitana e RIDE)"
+V0022,Total de moradores,01 a 30=Pessoas
+C006,C6 Sexo,1=Homem | 2=Mulher
+C008,C8 Idade do morador na data de referência,000 a 130=Idade (em anos)
+C009,C9 Cor ou raça,1=Branca | 2=Preta | 3=Amarela | 4=Parda | 5=Indígena | 9=Ignorado
+C011,C11 Qual é o estado civil de ___?,1=Casado(a) | 2=Divorciado(a) ou desquitado(a) ou separado(a) judicialmente | 3=Viúvo(a) | 4=Solteiro(a) | 9=Ignorado
+VDD004A,Nível de instrução mais elevado alcançado (pessoas de 5 anos ou mais de idade) padronizado para o Ensino Fundamental - SISTEMA DE 9 ANOS,1=Sem instrução | 2=Fundamental incompleto ou equivalente | 3=Fundamental completo ou equivalente | 4=Médio incompleto ou equivalente | 5=Médio completo ou equivalente | 6=Superior incompleto ou equivalente | 7=Superior completo
+VDF003,"Rendimento domiciliar per capita (exclusive o rendimento das pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico)",00000000 a 99999999=Reais
+VDE002,Condição de ocupação na semana de referência para pessoas de 14 anos ou mais de idade,1=Pessoas Ocupadas | 2=Pessoas desocupadas
+N001,"N1 Em geral, como o(a) Sr(a) avalia a sua saúde",1=Muito boa | 2=Boa | 3=Regular | 4=Ruim | 5=Muito ruim | 9=Ignorado
+Q00101,Q1a Quando foi a última vez que o (a) Sr(a) teve sua pressão arterial medida?,1=Menos de 6 meses | 2=De 6 meses a menos de 1 ano | 3=De 1 ano a menos de  2 anos | 4=De 2 anos a menos de 3 anos | 5=3 anos ou mais | 6=Nunca | 9=Ignorado
+Q00201,Q2a Algum médico já lhe deu o diagnóstico de hipertensão arterial (pressão alta)?,1=Sim | 2=Não | 9=Ignorado
+Q02901,"Q29a Quando foi a última vez que o(a) Sr(a) fez exame de sangue para medir a glicemia, isto é, o açúcar no sangue?",1=Menos de 6 meses | 2=De 6 meses a menos de 1 ano | 3=De 1 ano a menos de  2 anos | 4=De 2 anos a menos de 3 anos | 5=3 anos ou mais | 6=Nunca fez | 9=Ignorado
+Q03001,Q30a Algum médico já lhe deu o diagnóstico de diabetes?,1=Sim | 2=Não | 9=Ignorado
+Q06306,"Q63a Algum médico já lhe deu o diagnóstico de uma doença do coração, tal como infarto, angina, insuficiência cardíaca ou outra?",1=Sim | 2=Não | 9=Ignorado
+Q068,Q68 Algum médico já lhe deu o diagnóstico de AVC (Acidente Vascular Cerebral) ou derrame?,1=Sim | 2=Não | 9=Ignorado
+Q074,Q74 Algum médico já lhe deu o diagnóstico de asma (ou bronquite asmática)?,1=Sim | 2=Não | 9=Ignorado
+Q11604,"Q116a Algum médico já lhe deu o diagnóstico de alguma outra doença crônica no pulmão, tais como enfisema pulmonar, bronquite crônica ou DPOC (Doença Pulmonar Obstrutiva Crônica)?",1=Sim | 2=Não | 9=Ignorado
+Q120,Q120 Algum médico já lhe deu diagnóstico de câncer?,1=Sim | 2=Não | 9=Ignorado
+Q092,Q92 Algum médico ou profissional de saúde mental (como psiquiatra ou psicólogo) já lhe deu o diagnóstico de depressão?,1=Sim | 2=Não | 9=Ignorado
+I00102,"I1b tem algum plano de saúde médico particular, de empresa ou órgão público?",1=Sim | 2=Não | 9=Ignorado
+J01101,J11a Quando ____ consultou um médico pela última vez,1=Até 1 ano | 2=Mais de 1 ano a 2 anos | 3=Mais de 2 anos a 3 anos | 4=Mais de 3 anos | 5=Nunca foi ao médico | 9=Ignorado
+J037,"J37 Nos últimos 12 meses, ___ ficou internado(a) em hospital por 24 horas ou mais",1=Sim | 2=Não | 9=Ignorado
+J026,J26 O atendimento de ___ foi feito pelo SUS,1=Sim | 2=Não | 3=Não sabe/Não lembra
+K001,"K1 Em geral, que grau de dificuldade ___ tem para comer sozinho (a) com um prato colocado à sua frente, incluindo segurar um garfo, cortar alimentos e beber em um copo",1=Não consegue | 2=Tem grande dificuldade | 3=Tem pequena dificuldade | 4=Não tem dificuldade | 9=Ignorado
+K004,"K4 Em geral, que grau de dificuldade ___ tem para tomar banho sozinho(a) incluindo entrar e sair do chuveiro ou banheira",1=Não consegue | 2=Tem grande dificuldade | 3=Tem pequena dificuldade | 4=Não tem dificuldade | 9=Ignorado
+K010,"K10 Em geral, que grau de dificuldade ___ tem para se vestir sozinho(a), incluindo calçar meias e sapatos, fechar o zíper, e fechar e abrir botões",1=Não consegue | 2=Tem grande dificuldade | 3=Tem pequena dificuldade | 4=Não tem dificuldade | 9=Ignorado
+K022,"K22 Em geral, que grau de dificuldade ___ tem para fazer compras sozinho(a), por exemplo de alimentos, roupas ou medicamentos",1=Não consegue | 2=Tem grande dificuldade | 3=Tem pequena dificuldade | 4=Não tem dificuldade | 9=Ignorado
+K031,"K31 Em geral, que grau de dificuldade ___ tem para ir ao médico sozinho(a)",1=Não consegue | 2=Tem grande dificuldade | 3=Tem pequena dificuldade | 4=Não tem dificuldade | 9=Ignorado
+K01901,"K19a ___ precisa de ajuda para realizar alguma(s) destas atividades (comer, tomar banho, ir ao banheiro, se vestir, andar em casa de um cômodo ao outro, deitar-se ou levantar-se da cama sozinho, sentar ou levantar da cadeira sozinho)",1=Sim | 2=Não | 9=Ignorado
+K03401,"K34a ___ precisa de ajuda para realizar alguma(s) destas atividades (fazer compras, administrar as finanças, tomar os remédios, ir ao médico, sair utilizando um transporte como ônibus, metrô, táxi, carro, etc. )",1=Sim | 2=Não | 9=Ignorado
+K04301,"K43a ___faz uso de algum medicamento, que foi receitado por um médico, para uso regular ou contínuo (Diário)",1=Sim | 2=Não | 3=Não sabe/Não respondeu | 9=Ignorado
+K04302,"K43b Quantos medicamentos diferentes de uso regular ou contínuo, receitados pelo médico, ___ usou nas duas últimas semanas",01 a 98=Medicamentos | 99=ignorado
+K052,"K52 Nos últimos doze meses, ___ tomou vacina contra gripe",1=Sim | 2=Não | 9=Ignorado
+K05401,"K54a Nos últimos doze meses, ___ teve alguma queda",1=Sim | 2=Não | 9=Ignorado
+P034,"P34 Nos últimos três meses, o(a) Sr(a) praticou algum tipo de exercício físico ou esporte?",1=Sim | 2=Não | 9=Ignorado
+P050,"P50 Atualmente, o(a) Sr(a) fuma algum produto do tabaco?","1=Sim, diariamente | 2=Sim, menos que diariamente | 3=Não fumo atualmente | 9=Ignorado"
+P00104,Peso - Final (em kg) (3 inteiros e 1 casa decimal),1 a 599=Quilogramas
+P00404,Altura - Final (em cm) (3 inteiros),1 a 299=Centímetros | 999=Ignorado
+P00102,P1a O(A) Sr(a) sabe seu peso?,1=Sim | 2=Não sabe/Não lembra
+P00103,P1a Peso - Informado (em kg) (3 inteiros e 1 casa decimal),1 a 599=Quilogramas
+P00402,P4a O(A) Sr(a) sabe sua altura? (mesmo que seja valor aproximado),1=Sim | 2=Não sabe/Não lembra
+Q060,Q60 Algum médico já lhe deu o diagnóstico de colesterol alto?,1=Sim | 2=Não | 9=Ignorado
+Q06207,Q62a Recomendação para manter uma alimentação saudável,1=Sim | 2=Não | 9=Ignorado
+Q11201,Q112a O(A) Sr(a) visita o médico/serviço de saúde regularmente por causa dessa doença mental ou só quando tem algum problema?,"1=Sim | 2=Não | 3=Não, só quando tenho algum problema | 9=Ignorado"
+I00101,"I1a tem algum plano odontológico particular, de empresa ou órgão público?",1=Sim | 2=Não | 9=Ignorado
+J001,"J1 De um modo geral, como é o estado de saúde de________",1=Muito bom | 2=Bom | 3=Regular | 4=Ruim | 5=Muito ruim | 9=Ignorado
+O00101,"O1a Atualmente, o(a) Sr(a) dirige automóvel (inclusive táxi, aplicativos de transporte e similares)",1=Sim | 2=Não
+R002010,R2a Qual o principal motivo da Sra não ter feito exame preventivo nos últimos três anos,"01=Nunca teve relações sexuais | 02=Não acha necessário | 03=Tem vergonha | 04=Não foi orientada para fazer o exame | 05=Não sabe quem procurar ou aonde ir | 06=Tem dificuldades financeiras | 07=O tempo de espera no serviço de saúde era muito grande | 08=O serviço de saúde era distante ou teve dificuldade de transporte | 09=O horário de funcionamento do serviço era incompatível com suas atividades de trabalho ou domésticas | 10=Não conseguiu marcar consulta pelo plano de saúde | 11=Está marcado, mas ainda não realizou | 12=Fez cirurgia de retirada do útero/histerectomia | 13=Outro | 99=Ignorado"
+M001,M1 Entrevista do adulto selecionado,1=Realizada | 2=Recusa | 3=Morador não encontrado | 9=Ignorado
+M011011,"M11 No(s) seu(s) trabalho(s), o(a) Sr(a) está(estava) exposto(a) a algum destes fatores que podem afetar a sua saúde. Manuseio de substâncias químicas (agrotóxicos, gasolina, diesel, formol, chumbo, mercúrio, cromo, quimioterápicos etc.)",1=Sim | 2=Não
+D00901,D9a Qual foi o curso mais elevado que ___frequentou,"01=Creche | 02=Pré-escola | 03=Classe de alfabetização – CA | 04=Alfabetização de jovens e adultos | 05=Antigo primário (elementar) | 06=Antigo ginasial (médio 1º ciclo) | 07=Regular do ensino fundamental ou do 1º grau | 08=Educação de jovens e adultos (EJA) ou supletivo do ensino fundamental | 09=Antigo científico, clássico etc. (médio 2º ciclo) | 10=Regular do ensino médio ou do 2º grau | 11=Educação de jovens e adultos (EJA) ou supletivo do ensino médio | 12=Superior – graduação | 13=Especialização de nível superior (duração mínima de 360 horas) | 14=Mestrado | 15=Doutorado | 99=Ignorado"
+E01602,E16 Qual era o rendimento bruto mensal ou retirada que ___ fazia normalmente nesse trabalho?(valor em dinheiro),valor em reais=R$ | 99999999=Ignorado
+C004,C4 Condição no domicílio,"01=Pessoa responsável pelo domicílio | 02=Cônjuge ou companheiro(a) de sexo diferente | 03=Cônjuge ou companheiro(a) do mesmo sexo | 04=Filho(a) do responsável e do cônjuge | 05=Filho(a) somente do responsável | 06=Filho(a) somente do cônjuge | 07=Genro ou nora | 08=Pai, mãe, padrasto ou madrasta | 09=Sogro(a) | 10=Neto(a) | 11=Bisneto(a) | 12=Irmão ou irmã | 13=Avô ou avó | 14=Outro parente | 15=Agregado(a) - Não parente que não compartilha despesas | 16=Convivente - Não parente que compartilha despesas | 17=Pensionista | 18=Empregado(a) doméstico(a) | 19=Parente do(a) empregado(a) doméstico(a)"
+V0029,Peso do morador selecionado sem calibração,5 dígitos e 8 casas decimais=Peso do morador selecionado com correção de não entrevista sem calibração pela projeção de população para morador selecionado
+V00293,Domínio de projeção para morador selecionado,
